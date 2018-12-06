@@ -20,12 +20,12 @@ public class Hareket : MonoBehaviour {
         if (Input.GetKey(KeyCode.W))
         {
             //W tusu ile ileri gitme (hiz degeri kadaR)
-            r_body.AddForce(0, 0, hiz);
+            r_body.AddForce(0, 0, -hiz);
         }
         if (Input.GetKey(KeyCode.S))
         {
             //S tusu ile geri gitme (hiz degeri kadaR)
-            r_body.AddForce(0, 0, -hiz);
+            r_body.AddForce(0, 0, hiz);
         }
         if (Input.GetKey(KeyCode.A))
         {
