@@ -5,17 +5,17 @@ using UnityEngine;
 public class Hareket : MonoBehaviour {
     //Hiz degeri
     public int hiz = 0;
-    //Create rigitbody component as r_body
+    //Create rigidbody component as r_body
     private Rigidbody r_body;
 
 	// Use this for initialization
 	void Start () {
-        //Get component's rigitbody as r_body
+        //Get component's rigidbody as r_body
         r_body = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
-    //Input frame basi update olur
+        //Input frame basi update olur
 	void Update () {
         if (Input.GetKey(KeyCode.W))
         {
